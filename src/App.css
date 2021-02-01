@@ -28,6 +28,39 @@
   color: #61dafb;
 }
 
+ul.categories {
+  display: flex;
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+  overflow: hidden;
+  text-justify: distribute;
+}
+
+
+ul.categories li {
+  float: left;
+  margin-right: 5px ;
+  margin-left: 5px ;
+}
+
+
+ui.categories:nth-child(1) li {
+  margin-left: 5px ;
+}
+a {
+  text-decoration: none;
+}
+
+h3, p{
+  margin: 0px 0px;
+}
+
+.list-item {
+  margin-bottom: 10px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
